@@ -45,10 +45,10 @@
 					{
 						_class = "RenderMeshFile"
 						name = "wall"
-						filename = "models/wall.fbx"
+						filename = "models/wall.dmx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
-						import_rotation = [ 0.0, 0.0, 0.0 ]
-						import_scale = 0.32
+						import_rotation = [ 0.0, 90.0, 0.0 ]
+						import_scale = 1.0
 						align_origin_x_type = "None"
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
@@ -60,6 +60,34 @@
 							[
 								"Post",
 							]
+						}
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_box"
+						game_keys = 
+						{
+							bonename = ""
+							dimensions = [ 7.99105, 48.5729, 40.5203 ]
+							offset_origin = [ 0.006922, -24.1534, 180.024 ]
+							offset_angles = [ 0.0, 0.0, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_box"
+						game_keys = 
+						{
+							bonename = ""
+							dimensions = [ 7.99105, 48.5729, 32.8734 ]
+							offset_origin = [ 0.006922, -24.1534, 143.51 ]
+							offset_angles = [ 0.0, 0.0, 0.0 ]
 						}
 					},
 				]

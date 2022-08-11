@@ -96,21 +96,12 @@
 				[
 					{
 						_class = "PhysicsShapeBox"
-						parent_bone = "LeftSwing_end"
+						parent_bone = "Root"
 						surface_prop = "default"
 						collision_tags = "solid"
-						origin = [ 0.0, -12.0, -2.0 ]
+						origin = [ 0.0, 2.0, 0.0 ]
 						angles = [ 0.0, 0.0, 0.0 ]
-						dimensions = [ 48.0, 24.0, 4.0 ]
-					},
-					{
-						_class = "PhysicsShapeBox"
-						parent_bone = "RightSwing_end"
-						surface_prop = "default"
-						collision_tags = "solid"
-						origin = [ 0.0, -12.0, -2.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						dimensions = [ 48.0, 24.0, 4.0 ]
+						dimensions = [ 48.0, 4.0, 48.0 ]
 					},
 				]
 			},

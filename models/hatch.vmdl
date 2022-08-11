@@ -27,11 +27,15 @@
 						[
 							{
 								from = "door.vmat"
-								to = "materials/generic/metal_brushed.vmat"
+								to = "models/rust_props/portacabins/portacabin_wood_panels.vmat"
 							},
 							{
 								from = "frame.vmat"
-								to = "materials/generic/metal_brushed.vmat"
+								to = "materials/models/solids/black.vmat"
+							},
+							{
+								from = "lock.vmat"
+								to = "materials/models/solids/black.vmat"
 							},
 						]
 						use_global_default = false
